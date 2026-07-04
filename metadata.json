@@ -1,0 +1,6 @@
+{
+  "name": "SwasthyaSetu AI",
+  "description": "Modern Government Healthcare Platform for queue management and medicine tracking in rural clinics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

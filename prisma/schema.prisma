@@ -1,0 +1,27 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Patient {
+  id        String   @id @default(uuid())
+  name      String
+  age       Int
+  village   String
+  symptoms  String
+  token     String   @unique
+  status    String   // "WAITING", "SERVING", or "COMPLETED"
+  createdAt DateTime @default(now())
+}
+
+model Medicine {
+  id           String   @id @default(uuid())
+  medicineName String
+  expiryDate   String   // Store as YYYY-MM-DD or simple date string
+  stock        Int      // Units left
+  createdAt    DateTime @default(now())
+}
