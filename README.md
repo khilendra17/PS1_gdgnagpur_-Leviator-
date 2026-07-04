@@ -1,6 +1,36 @@
 # SwasthyaSetu AI 🏥✨
 ### Modern Government Digital Healthcare Platform
 
+AI-powered healthcare platform for government clinics focused on smart queue management and medicine tracking.
+
+## 🚀 Live Demo
+
+👉 https://swasthyasetu-ai-948126327573.asia-southeast1.run.app
+
+## ✨ Features
+
+- Smart Patient Queue Management
+- Automatic Token Generation
+- Real-time Queue Dashboard
+- Medicine Inventory Tracking
+- AI-powered Medicine Assistant (Google Gemini)
+- Responsive Modern UI
+- SQLite Database
+- Express.js Backend
+- React + Vite Frontend
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Node.js
+- Express.js
+- Prisma
+- SQLite
+- Google Gemini API
 SwasthyaSetu AI is a fully functional, production-ready hackathon MVP designed for modern government primary health centers (PHC) and rural healthcare clinics. Built using the **Express.js + Vite** full-stack architecture, it resolves major rural clinic challenges such as long waiting lines, medicine stock expiry, and clinical advice accessibility in remote areas using **Google Gemini 3.5 Flash** models and **Prisma SQLite database storage**.
 
 ---
